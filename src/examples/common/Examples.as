@@ -35,11 +35,8 @@ package examples.common {
 
 		private function onGenomeInitialized(): void {
 			// build the demo.
-			var demoClass:Class = ExampleDragonChangeCloths ;
-//			var demoClass:Class = ExampleAnimation ;
-//			var demoClass:Class = ExampleCybor ;
-//			var demoClass:Class = ExampleKnight ;
-//			var demoClass:Class = ExampleStressTest ;
+//			var demoClass:Class = ExampleDragonChangeCloths ;
+			var demoClass:Class = ExampleKnight ;
 			Genome2D.getInstance().root.addChild(GNodeFactory.createNodeWithComponent(demoClass).node);
 		}
 
